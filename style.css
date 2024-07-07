@@ -695,6 +695,13 @@ form i {
     #content nav .nav-link {
         display: none;
     }
+
+    #sidebar .sideMenu li.active::after {
+        display: none;
+    }
+    #sidebar .sideMenu li.active::before{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -763,12 +770,5 @@ form i {
 
     .cardWrapper {
         display: grid;
-    }
-
-    #sidebar .sideMenu li.active::after {
-        display: none;
-    }
-    #sidebar .sideMenu li.active::before{
-        display: none;
     }
 }
